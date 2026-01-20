@@ -36,3 +36,4 @@ Makefile
 
 # ===== CLion =====
 .idea/
+*.cph
