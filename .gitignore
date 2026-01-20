@@ -1,0 +1,38 @@
+*.h
+*.exe
+*.exec
+# ===== Compiled binaries =====
+*.out
+*.exe
+*.app
+
+# Default a.out (clang/g++)
+a.out
+
+# ===== Object files =====
+*.o
+*.obj
+
+# ===== Build directories =====
+build/
+cmake-build-*/
+Debug/
+Release/
+
+# ===== CMake =====
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ===== macOS system files =====
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+
+# ===== CLion =====
+.idea/
